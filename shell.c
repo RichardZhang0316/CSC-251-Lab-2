@@ -47,7 +47,7 @@ int main() {
         if (input[strlen(input) - 2] == '&') {
             background = 1;
             // we want to remove the & symbol to ensure the normal execution of the program
-            input[strlen(input) - 2] == '\0';
+            input[strlen(input) - 2] = '\0';
         }
 
         // convert the command to an array of arguments
